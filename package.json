@@ -1,0 +1,8 @@
+{
+  "name": "DiscordOverflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shashwatrathod/DiscordOverflow.git",
+  "author": "Shashwat <shashwatrathod22@gmail.com>",
+  "license": "MIT"
+}
