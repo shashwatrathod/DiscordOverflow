@@ -1,12 +1,13 @@
 {
-  "name": "DiscordOverflow",
+  "name": "discord-overflow",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "repository": "https://github.com/shashwatrathod/DiscordOverflow.git",
   "author": "Shashwat <shashwatrathod22@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node main.js"
+    "compile": "npx tsc",
+    "start": "npm run compile && node dist/main.js"
   },
   "dependencies": {
     "discord.js": "^13.3.1",
