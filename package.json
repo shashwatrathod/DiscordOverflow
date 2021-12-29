@@ -5,6 +5,7 @@
   "repository": "https://github.com/shashwatrathod/DiscordOverflow.git",
   "author": "Shashwat <shashwatrathod22@gmail.com>",
   "license": "MIT",
+  "type": "commonjs",
   "scripts": {
     "compile": "npx tsc",
     "start": "npm run compile && node dist/main.js"
