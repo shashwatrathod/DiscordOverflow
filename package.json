@@ -13,6 +13,7 @@
     "clean-dist": "rm -rf dist",
     "prepare": "husky install",
     "test": "mocha"
+
   },
   "dependencies": {
     "axios": "^0.24.0",
