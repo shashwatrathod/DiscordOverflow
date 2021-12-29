@@ -7,8 +7,10 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "compile": "npx tsc",
-    "start": "npm run compile && node dist/main.js"
+    "compile": "npx tsc && npm run prettier",
+    "prettier": "npx prettier --write src/",
+    "start": "npm run compile && node dist/main.js",
+    "clean-dist": "rm -rf dist"
   },
   "dependencies": {
     "axios": "^0.24.0",
