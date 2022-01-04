@@ -29,6 +29,8 @@ async function searchGoogleUsingSerpapi(term: string) {
 }
 
 function parseSearchResults(stringResult: Promise<any>): string | undefined {
+  // @TODO -- create a parser to standardize results
+
   return undefined;
 }
 
